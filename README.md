@@ -57,18 +57,31 @@
 ### Hobby Hidden  
 <img src="./screenshots/2.%20Add%20student%20screen%20(hobby%20hidden).png" width="700"/>
 
-### 🔍 **3. Filling the Form**
-**Entering data in 'Add Student**
+### 🔍 **3. Filling the Form in Add Student**
 <img src="./screenshots/3.Entering%20the%20data%20in%20Add%20student.png" width="700"/>
 
 ### **4.Name must at least have 5 characters**
 <img src="./screenshots/4.%20Name%20must%20at%20least%20have%205%20characters.png" width="700"/>
 
-### **5.Saved new enties with different scenarios( including NONE fields)**
-**5.1. Favourite Subject: NONE**
-**5.2. Hobby and Favourite Subject: NONE**
-**5.3. Hobby: NONE**
+### **5. Saved new entries with different scenarios (including NONE fields)**
+
+- **5.1 Favourite Subject:** NONE  
+- **5.2 Hobby and Favourite Subject:** NONE  
+- **5.3 Hobby:** NONE
+
 <img src="./screenshots/5.Saved%20new%20enties%20with%20different%20scenarios(%20including%20NONE%20fields).png" width="900"/>
+
+### **6. Different Class Selection Messages**
+
+- **Class 6 → Shows welcome message**
+- <img src="./screenshots/8.1.%20Class%206.png" width="500"/>
+
+- **Class 7 & 8 → Shows general educational message.**
+- <img src="./screenshots/8.2.%20Class%207.png" width="500"/>
+- <img src="./screenshots/8.3.%20Class%208.png" width="500"/>
+
+- **Class 9 → Shows board exam message.**
+-<img src="./screenshots/8.4.%20Class%209.png" width="500"/>
 
 ---
 
