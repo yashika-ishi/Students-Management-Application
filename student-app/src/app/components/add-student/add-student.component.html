@@ -1,0 +1,66 @@
+<h2>Add Student</h2>
+
+<form [formGroup]="studentForm" (ngSubmit)="save()" class="student-form">
+
+
+  <!-- Name -->
+  <label>Name:</label><br>
+  <input formControlName="name"><br>
+  <small *ngIf="studentForm.controls.name.touched && studentForm.controls.name.invalid" style="color:red;">
+    Must be at least 5 characters.
+  </small>
+  <br><br>
+
+  <!-- Class -->
+  <label>Class:</label><br>
+  <select formControlName="class">
+    <option value="">Select</option>
+    <option value="6">Class 6</option>
+    <option value="7">Class 7</option>
+    <option value="8">Class 8</option>
+    <option value="9">Class 9</option>
+  </select>
+
+  <div *ngIf="studentForm.value.class == '9'" style="color:blue; margin-top:6px;">
+    You will appear in board exams soon. All the Best !!
+  </div>
+
+  <div *ngIf="studentForm.value.class == '6'" style="color:green; margin-top:6px;">
+    Welcome to middle school!
+  </div>
+
+  <div *ngIf="studentForm.value.class && studentForm.value.class!='9' && studentForm.value.class!='6'" style="color:purple; margin-top:6px;">
+    Education and hobby go hand in hand!
+  </div>
+
+  <br>
+
+  <!-- Gender -->
+  <label>Gender:</label><br>
+  <label><input type="radio" value="Male" formControlName="gender"> Male</label>
+  <label><input type="radio" value="Female" formControlName="gender"> Female</label>
+  <br><br>
+
+  <!-- Hobby Checkbox -->
+  <label><input type="checkbox" formControlName="hasHobby"> I have a hobby</label><br><br>
+
+  <!-- Hobby Input -->
+  <div *ngIf="studentForm.value.hasHobby">
+    <label>Hobby:</label><br>
+    <input formControlName="hobby"><br><br>
+  </div>
+
+  <!-- Favourite Subject -->
+  <label>Favourite Subject:</label><br>
+  <select formControlName="favSubject">
+    <option value="">Select</option>
+    <option>Maths</option>
+    <option>Science</option>
+    <option>English</option>
+    <option>Computer</option>
+  </select>
+
+  <br><br>
+
+  <button type="submit">Save</button>
+</form>

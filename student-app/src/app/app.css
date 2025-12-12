@@ -1,0 +1,66 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Full-page background */
+body {
+  background: linear-gradient(135deg, #ffecd2, #fcb69f);
+  margin: 0;
+}
+
+/* Sidebar */
+nav {
+  background: linear-gradient(180deg, #8E2DE2, #4A00E0);
+  padding: 30px;
+  color: white;
+  border-radius: 0 25px 25px 0;
+  box-shadow: 6px 0 20px rgba(0,0,0,0.2);
+  width: 230px;
+}
+
+nav h3 {
+  font-size: 26px;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  margin-bottom: 18px;
+  padding: 12px 15px;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+/* Gorgeous Hover */
+nav a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateX(10px);
+}
+
+/* Active */
+.active {
+  background: rgba(255, 255, 255, 0.4);
+  font-weight: 600;
+  border-left: 5px solid #fff;
+}
+
+/* Smooth fade animation */
+main {
+  padding: 25px;
+  animation: fadeIn 0.4s ease;
+}
+
+.layout-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
