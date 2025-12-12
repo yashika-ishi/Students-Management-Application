@@ -81,7 +81,7 @@
 - <img src="./screenshots/8.3.%20Class%208.png" width="500"/>
 
 - **Class 9 → Shows board exam message.**
--<img src="./screenshots/8.4.%20Class%209.png" width="500"/>
+- <img src="./screenshots/8.4.%20Class%209.png" width="500"/>
 
 ---
 
